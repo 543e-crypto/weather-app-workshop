@@ -1,6 +1,6 @@
 // ====== STEP 1: Setup API Variables ======
-const apiKey = "fe43774f5d9498eca1a93c8d20e6d41a"; // Replace with your OpenWeatherMap API key
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=imperial&q=";
+const apiKey = "d453f4c65de787af07c937b5bff1343d";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=arlington";
 
 // ====== STEP 2.4: Select DOM Elements ======
 const searchBox = document.querySelector(".search input");
@@ -16,7 +16,7 @@ async function checkWeather(city) {
         //STEP 2.2: Extract the weather data from the API response
         const data = await response.json();
 
-        //STEP 2.3: Update the DOM elements with the weather data °F
+        //STEP 2.3: Update the DOM elements with the weather data ï¿½F
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "&deg;F";
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
