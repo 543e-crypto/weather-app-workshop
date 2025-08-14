@@ -1,5 +1,5 @@
 const apiKey = "d453f4c65de787af07c937b5bff1343d";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=arlington";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");

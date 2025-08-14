@@ -9,7 +9,7 @@
 // ====== STEP 1: Setup API Variables ======
 // TODO: Replace with your own API key from OpenWeatherMap
 const apiKey = "d453f4c65de787af07c937b5bff1343d";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=arlington";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 
 // ====== STEP 2.4: Select DOM Elements ======
