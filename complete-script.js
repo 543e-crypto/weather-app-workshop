@@ -1,5 +1,5 @@
-const apiKey = "d453f4c65de787af07c937b5bff1343d";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=d453f4c65de787af07c937b5bff1343d";
+const apiKey = "1f93725edc55eaf0936b6f8f1d4c9f5a";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
